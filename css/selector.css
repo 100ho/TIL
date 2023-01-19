@@ -1,0 +1,57 @@
+pre {
+    text-align: center;
+    color: blue;
+}
+
+.multi1 {
+    color: violet;
+}
+
+.multi3 {
+    background-color: indigo;
+}
+
+/* id 선택자 */
+
+
+/* 자식 */
+
+#children1 > p{
+    background-color: blue;
+    color: white;
+}
+
+#children1 > p{
+    background-color: blue;
+    color: red;
+}
+
+/* 하위 */
+#children2 span{
+    color: brown;
+}
+
+/* 인접 */
+span+pre {
+    color: hotpink;
+    background-color: yellow;
+}
+
+/* 가상클래스 */
+/* 방문하지 않은 링크 */
+
+a:link{
+    color: green;
+    font-size: 20pt;
+}
+
+/* 방문한 링크 */
+
+a:visited {
+    color: black;
+}
+
+/* 링크에 마우스 오버시 */
+a:hover{
+    background-color: aqua;
+}
